@@ -1,0 +1,28 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 4px;
+  cursor: pointer;
+}
+li img {
+  width: 160px;
+  height: 160px;
+  clear: both;
+}
+li span {
+  display: block;
+  width: 160px;
+  text-align: center;
+  font: 16px "Microsoft YaHei", sans-serif;
+}
+li:hover {
+  outline: 3px red solid;
+}

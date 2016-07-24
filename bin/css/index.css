@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.container {
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.enter {
+  width: 120px;
+  height: 68px;
+  margin: 0 auto;
+  text-align: center;
+  font: 36px/68px "Microsoft YaHei", sans-serif;
+  background-color: #5b8;
+  cursor: pointer;
+}

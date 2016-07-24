@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>content</title>
+	<link rel="stylesheet" type="text/css" href="css/content.css" />
+	<script type="text/javascript" src="js/AIRAliases.js"></script>
+	<script type="text/javascript" src="js/content.js"></script>
+</head>
+
+<body>
+	<ul>
+		<li><img src="images/video.png" /><span>TEST Video 1</span></li>
+		<li><img src="images/video.png" /><span>TEST Video 2</span></li>
+	</ul>
+	<script>
+		window.onload = function() {
+			var u = '1';
+			var c = '1';
+			var p = '1';
+			var type = 'video';
+			var extension = '.mp4';
+
+			var items = document.getElementsByTagName('img');
+
+			for (var i = 0; i < items.length; i++) {
+				var url = "resources/" + u + "/" + c + "/" + p + "/" + type + "/" + (i + 1) + extension;
+				items[i].setAttribute("data-src", url);
+				items[i].addEventListener("click", function(e) {
+					openFile(e.target.getAttribute("data-src"));
+				});
+			}
+		}
+	</script>
+</body>
+
+</html>

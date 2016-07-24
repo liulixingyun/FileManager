@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>content</title>
+  <link rel="stylesheet" type="text/css" href="css/content.css" />
+  <script type="text/javascript" src="js/AIRAliases.js"></script>
+  <script type="text/javascript" src="js/content.js"></script>
+</head>
+
+<body>
+  <ul>
+    <li><img alt="img" /><span>TEST IMAGE 1</span></li>
+    <li><img alt="img" /><span>TEST IMAGE 2</span></li>
+    <li><img alt="img" /><span>TEST IMAGE 3</span></li>
+    <li><img alt="img" /><span>TEST IMAGE 4</span></li>
+  </ul>
+
+  <script>
+    window.onload = function() {
+      var u = '1';
+      var c = '2';
+      var p = '1';
+      var type = 'image';
+      var extension = '.jpg';
+
+      var items = document.getElementsByTagName('img');
+
+      for (var i = 0; i < items.length; i++) {
+        var url = "resources/" + u + "/" + c + "/" + p + "/" + type + "/" + (i + 1) + extension;
+        items[i].src = url;
+        items[i].addEventListener("click", function(e) {
+          openFile(e.target.src);
+        });
+      }
+    }
+  </script>
+</body>
+
+</html>

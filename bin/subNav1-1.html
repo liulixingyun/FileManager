@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>JSON无限折叠菜单</title>
+  <link rel="stylesheet" href="css/subNav.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jsonMenu.js"></script>
+  <script type="text/javascript" src="js/AIRAliases.js"></script>
+</head>
+
+<body>
+  <div class="wrap-menu">
+  </div>
+  <script>
+    var testMenu = [{
+      "name": "第一节",
+      "submenu": [{
+        "name": "图片",
+        "url": "i1-1-1.html"
+      }, {
+        "name": "PPT",
+        "url": "p1-1-1.html"
+      }, {
+        "name": "Word",
+        "url": "w1-1-1.html"
+      }, {
+        "name": "视频",
+        "url": "v1-1-1.html"
+      }]
+    }, {
+      "name": "第二节",
+      "submenu": [{
+        "name": "图片",
+        "url": "i1-1-2.html"
+      }]
+    }];
+    $(function() {
+      new AccordionMenu({
+        menuArrs: testMenu
+      });
+    });
+  </script>
+</body>
+
+</html>

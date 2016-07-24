@@ -1,0 +1,106 @@
+@charset "utf-8";
+a, a:link, a:visited, a:hover, a:active {
+  color: #FFF;
+  text-decoration: none
+}
+html, body, .container {
+  height: 100%;
+  overflow: hidden;
+  font: 18px "Microsoft YaHei", sans-serif;
+  background: #e76377;
+}
+.header {
+  position: absolute;
+  display: table-cell;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 125px;
+  vertical-align: middle;
+  background: url(../images/menu-header-bg.png);
+  border-bottom: #ad182e 4px solid;
+}
+.menu {
+  position: absolute;
+  top: 129px;
+  right: 0;
+  bottom: 74px;
+  left: 0;
+  overflow: hidden;
+  background: #e98695;
+  text-align: center;
+}
+.footer {
+  position: absolute;
+  height: 125px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #f21842;
+  border-top: #ad182e 4px solid;
+}
+.header .logo {
+  float: left;
+  margin-left: 25px;
+}
+.header .logo .title {
+  margin-top: 18px;
+  font: 38px/38px "Microsoft YaHei", sans-serif;
+  color: #fff;
+}
+.header .logo .subTitle {
+  margin-top: 8px;
+  font: 12px/12px "Microsoft YaHei", sans-serif;
+  color: #101001;
+}
+.header .sun {
+  position: absolute;
+  width: 403px;
+  height: 125px;
+  top: 0;
+  bottom: 0;
+  right: 30px;
+  background: url(../images/menu-header-sun.png) no-repeat;
+}
+.menu ul {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 90px;
+}
+.menu li {
+  float: left;
+  width: 180px;
+  height: 135px;
+  margin: 10px;
+  padding: 0;
+  background-color: #255595;
+  font: bold 16px/188px "Microsoft YaHei", sans-serif;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.menu .bgi-u1 {
+  background-image: url(../images/menu-unit1.jpg);
+}
+.menu .bgi-u2 {
+  background-image: url(../images/menu-unit2.jpg);
+}
+.menu .bgi-none {
+  background-image: none;
+}
+.footer .info {
+  position: absolute;
+  left: 10px;
+  bottom: 32px;
+  font: 12px/12px "Microsoft YaHei", sans-serf;
+  color: #fbbcb9;
+}
+.footer .fs {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  bottom: 22px;
+  right: 5px;
+  background: url(../images/fs.png) no-repeat;
+  cursor: pointer;
+}

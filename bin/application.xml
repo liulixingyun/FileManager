@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/22.0" minimumPatchLevel="0">
+	<id>cn.ll.biology</id>
+	<name>
+		<text xml:lang="en">Biology</text>
+	</name>
+	<versionNumber>4.2</versionNumber>
+	<versionLabel>phoenix</versionLabel>
+	<filename>biology</filename>
+	<description>
+		<text xml:lang="en">Biology 8A</text>
+		<text xml:lang="zh-cn">生物八上</text>
+	</description>
+	<copyright>liuli</copyright>
+
+	<installFolder>Biology</installFolder>
+	<programMenuFolder>Biology</programMenuFolder>
+
+	<initialWindow>
+		<content>menu.html</content>
+		<title>生物八上</title>
+		<systemChrome>standard</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+		<minimizable>true</minimizable>
+		<maximizable>true</maximizable>
+		<resizable>false</resizable>
+		<width>1024</width>
+		<height>768</height>
+		<x>100</x>
+		<y>100</y>
+	</initialWindow>
+	<customUpdateUI>true</customUpdateUI>
+	<supportedProfiles>extendedDesktop desktop</supportedProfiles>
+</application>

@@ -15,7 +15,7 @@ Adobe Air支持Flash、HTML等多种形式的开发，这里选择了**HTML**、
 - |-- run.vbs   未经编译的应用程序入口执行文件  
 - |-- runtimes/ Adobe Air平台运行环境，可依据不同的不同的操作系统下载不同的版本  
 - |-- bin/             应用程序源代码和资源文件夹  
-- |-- css/             应用程序的CSS源文件  
+  - |-- css/             应用程序的CSS源文件  
   - |-- js/            应用程序的JavaScript源文件  
   - |-- images/        应用程序的图片文件  
   - |-- resources/     应用程序的待管理的资源文件  
